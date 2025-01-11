@@ -8,7 +8,7 @@
 
 Date: 11/01/2025
 ###########################################################################
-#USAGE:  python tfInit_moduleMap_Parser.py tfinit.log
+#USAGE:  python tfinitparse.py tfinit.log
 ###########################################################################
 
 import re

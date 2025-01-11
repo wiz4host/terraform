@@ -1,3 +1,16 @@
+
+###########################################################################
+#This script parses a Terraform init log file, extracts module details, 
+#and generates a hierarchical tree structure representing the
+#relationships between parent and child modules. The output is displayed 
+#in a structured tree format and saved as a text file 
+#(terraform_tree_report.txt).
+
+Date: 11/01/2025
+###########################################################################
+#USAGE:  python tfInit_moduleMap_Parser.py tfinit.log
+###########################################################################
+
 import re
 from anytree import Node, RenderTree, ContStyle
 import os
